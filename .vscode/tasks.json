@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "music_controller/frontend",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build - music_controller/frontend",
+			"detail": "webpack --mode production"
+		}
+	]
+}
